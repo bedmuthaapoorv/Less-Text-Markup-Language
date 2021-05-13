@@ -30,6 +30,7 @@ In similar fashion LTML considerably reduces syntactical load on the developer a
 Latest Modules Added :
 - Doctypes
 
+# Doctypes
 
 First thing to consider are doctype declarations in html,they are a pain to remember,The most common and reliable doctype to use is 
 
