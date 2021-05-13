@@ -12,5 +12,5 @@ def breakdown(lFile):
             keywords[cmd](colSlice)
     if(flags["doctype"]==0):
         doctype(["doctype","5"])
-lFile=open("../test.lhtml")
+lFile=open("../test.ltml")
 breakdown(lFile)
