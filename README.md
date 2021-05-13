@@ -27,6 +27,16 @@ in HTML
 
 In similar fashion LTML considerably reduces syntactical load on the developer and helps him focus on more important stuff
 
+# Prerequisites
+- python3
+
+# Setup and Running the project:
+- download zip of the project and extract it
+- you may find index.ltml file
+- this is where you will write your ltml code
+- after writing run python file "mother.py" inside the Compiler folder
+- automatically an index.html file will be generated with all your expected code
+
 Latest Modules Added :
 - Doctypes
 
