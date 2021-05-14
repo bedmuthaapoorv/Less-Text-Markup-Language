@@ -1,8 +1,12 @@
 from doctypes import *
+from tagger import *
+from trackers import *
+from head import *
+from end import *
 keywords={
-    "doctype":doctype
+    "doctype":doctype,
+    "title":head
 }
-
 def breakdown(lFile):
     nslices=lFile.read().split("\n")
     for i in nslices:
@@ -12,5 +16,6 @@ def breakdown(lFile):
             keywords[cmd](colSlice)
     if(flags["doctype"]==0):
         doctype(["doctype","5"])
+    theend()
 lFile=open("../test.ltml")
 breakdown(lFile)

@@ -1,0 +1,21 @@
+
+<head> is the home of 6 important tags and below is the way to use them in Ltml
+
+-title tag
+
+in Ltml
+title:Project Name
+
+whose HTML equivalence is
+<title>Project Name</title>
+
+-link tag
+for adding stylesheets
+link:mystyle.css
+
+whose HTML equivalence is
+<link rel="stylesheet" href="mystyle.css">
+
+link is capable of many more attributes which are covered in the next section
+
+-

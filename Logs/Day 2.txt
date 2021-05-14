@@ -1,0 +1,40 @@
+**Project LTML**
+Day 2 - 14 May 2021
+
+Since the aim is to help developer code with as less code as possible and 
+make the whole experience easy and faster.
+We need to eliminate all the redundant structuring
+for e.g:
+
+<html>
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+    </body>
+</html>
+
+is going to be in your html file everytime so why should you be complied to write it everytime,
+Hence, LTML does that for you
+
+Let me show you with an example:
+
+The below code in LTML
+
+title:Demo Ltml Project
+
+will be equivalent to the below code in HTML:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Demo Ltml Project
+        </title>
+    </head>
+    <body>
+    </body>
+</html>
+
+in this way developer only needs to focus on what's actually important.

@@ -2,6 +2,7 @@ from writer import *
 flags={
     "doctype":0
 }
+start="<html><head>"
 def doctype(dctype):
     dctypes={
         "5":'<!DOCTYPE HTML>'
@@ -20,4 +21,5 @@ def doctype(dctype):
     if(flags["doctype"]==0):
         flags["doctype"]=1
         writer(dctypes[dctype[1]])
+        writer(start)
 
