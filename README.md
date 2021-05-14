@@ -37,8 +37,9 @@ In similar fashion LTML considerably reduces syntactical load on the developer a
 - after writing run python file "mother.py" inside the Compiler folder
 - automatically an index.html file will be generated with all your expected code
 
-Latest Modules Added :
+Modules Added :
 - Doctypes
+- Eliminating Unnecessary Code Structure
 
 # Doctypes
 
@@ -99,3 +100,42 @@ for XHTML + MathML + SVG - DTD user can use
 ```
 doctype:Compound
 ```
+# Eliminating Unnecessary Code Structure
+
+Since the aim is to help developer code with as less code as possible and 
+make the whole experience easy and faster.
+We need to eliminate all the redundant structuring
+for e.g:
+```
+<html>
+    <head>
+        <title>
+        </title>
+    </head>
+    <body>
+    </body>
+</html>
+```
+is going to be in your html file everytime so why should you be complied to write it everytime,
+Hence, LTML does that for you
+
+Let me show you with an example:
+
+The below code in LTML
+```
+title:Demo Ltml Project
+```
+will be equivalent to the below code in HTML:
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Demo Ltml Project
+        </title>
+    </head>
+    <body>
+    </body>
+</html>
+```
+in this way developer only needs to focus on what's actually important.
